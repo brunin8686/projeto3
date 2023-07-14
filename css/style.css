@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+
+body{
+    background-color: rgb(36, 36, 36);
+    color:  rgb(174, 172, 172);
+}
+#meu_menu {
+    text-align: right;
+    padding-right: 60px;
+    border-bottom: solid;
+    font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+
+}
+
+#meu_menu a {
+color:  blue;
+text-decoration: none;
+}
+
+#meu_menu :hover {
+    color:rgb(0, 0, 0);
+    background-color:   lightblue;
+    transition: 0.5;
+    border-radius: 30%;
+}
+
+.titulo {
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+    border-style: double;
+    color :blue;
+    
+    
+}
+
+#fundo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 50%;
+
+}
+
+.master {
+    display: flex;
+}
+
+.col_esquerda {
+    margin-right: 30px;
+    text-align: justify;
+}  
+
+.col_direita {
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.titulo_col {
+    text-align: center;
+    background-color: blue;
+}
